@@ -374,8 +374,34 @@ margin-left: 1em;
 /* end of desktop */
 /* mobile responsiveness at 750px*/
 @media (max-width: 750px) {
+  html, body {
+    overflow-x: hidden;
+  }
   /* nav */
-  
+  .main-nav, .about-description, .project-map, .test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* about */
+  .about-description {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-description img {
+    width: 45%;
+  }
+
+  .about-paragraphs {
+    padding: 1em 1em 5em 1em;
+  }
+  /*projects + contact*/
+  .project-card, .contact-form  {
+    width: 65%;
+    margin-bottom: 3em;
+  }
 }
 
 /* mobile responsiveness at 500px*/
