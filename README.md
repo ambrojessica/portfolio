@@ -1,6 +1,6 @@
 ## 🌸 Portfolio - Jessica Ambrocio
 Showcasing my projects, skills, get to know me and ways to contact me! 
-### Desktop only. Mobile friendly on the way.
+### 🚩 Mobile friendly on the way 🏃🏼‍♀️
 
 ## 🌻 Contact Me: 
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ambrojessica0@gmail.com)](mailto:ambrojessica0@gmail.com)
