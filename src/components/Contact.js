@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import '../App.css';
 import emailjs from 'emailjs-com';
 import { FaGithub, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
@@ -11,10 +11,11 @@ const USER_ID = process.env.REACT_APP_USER_ID;
 
 
 const Contact = () => {
+  const form = useRef();
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
       .then((result) => {
         console.log(result.text);
         alert('Your message was sent!');
@@ -32,7 +33,7 @@ const Contact = () => {
         <p><span>Questions, Comments, Concerns, Services?<br /> Send me a message 👋🏼</span></p>
         <div className="test">
           <div className="contact-form">
-            <form onSubmit={handleOnSubmit}>
+            <form ref={form} onSubmit={handleOnSubmit}>
               <div className="contact-input">
                 <label> Name:</label>
                 <input
