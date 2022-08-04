@@ -405,3 +405,40 @@ margin-left: 1em;
 }
 
 /* mobile responsiveness at 500px*/
+@media (max-width: 500px) {
+  /* nav */
+  .list-nav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  /* home */
+  .homepage {
+    font-size: 10px;
+  }
+
+  .slider{
+    font-size: 15px;
+  }
+
+  /* skills */
+  .skill-2 p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2em;
+    padding: 1em;
+  }
+  
+  /* projects */
+  .project-details img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+/* mobile responsiveness at 300px*/
