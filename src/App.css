@@ -441,4 +441,32 @@ margin-left: 1em;
   }
 }
 
-/* mobile responsiveness at 300px*/
+/* mobile responsiveness iphone 11*/
+@media (max-width: 414px) {
+  /*home */
+  .inner-homepage h1{
+    font-size: 21px;
+  }
+
+  .slider {
+    font-size: 8px;
+  }
+    /*about */
+  .about-description img {
+    width: 70%;
+  }
+
+  /* skills */
+  .skill-2 p {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  /*projects */
+  .project-details img {
+    width: 230px;
+    height: 200px;
+  }
+}
