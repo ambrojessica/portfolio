@@ -1,15 +1,15 @@
 import { SiBootstrap, SiCsswizardry, SiHtml5, SiReact, SiRedux } from 'react-icons/si';
 
 const projectsData = [
-  {
-    id: 1,
-    name: 'E-commerce Pizza Restaurant',
-    image: require('../images/pizza.png'),
-    icon: <><SiReact /> <SiRedux /> <SiCsswizardry /></>,
-    description: 'Online Ordering Pizza Delivery Site',
-    github: 'https://github.com/ambrojessica/pizza',
-    site: 'https://pizza-blush.vercel.app/',
-  },
+  // {
+  //   id: 1,
+  //   name: 'E-commerce Pizza Restaurant',
+  //   image: require('../images/pizza.png'),
+  //   icon: <><SiReact /> <SiRedux /> <SiCsswizardry /></>,
+  //   description: 'Online Ordering Pizza Delivery Site',
+  //   github: 'https://github.com/ambrojessica/pizza',
+  //   site: 'https://pizza-blush.vercel.app/',
+  // },
   {
     id: 2,
     name: 'Animal Crossing Art Work',
@@ -27,6 +27,15 @@ const projectsData = [
     description: 'Practicing Flexbox and a Fake Portfolio',
     github: 'https://github.com/ambrojessica/practice-portfolio',
     site: 'https://ambrojessica.github.io/practice-portfolio/',
+  },
+  {
+    id: 4,
+    name: 'Faux Car Product Services',
+    image: require('../images/car.png'),
+    icon: <><SiHtml5 /> <SiCsswizardry /></>,
+    description: 'Faux Product, Practicing Flexbox and CSS Animations',
+    github: 'https://github.com/ambrojessica/car-product',
+    site: 'https://ambrojessica.github.io/car-product/',
   },
 ];
 
