@@ -187,30 +187,38 @@ margin-left: 1em;
 }
 
 .skill-1 {
-  width: 60%;
+  width: 80%;
+  height: 50vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: 2em;
 }
 
-.skill-2 {
-  text-align: center;
-  width: 80%;
-}
-
-.skill-2 h4 {
-  font-size: 18px;
-  font-style: italic;
-}
-
-.skill-2 p {
-  padding: 1em 0 1em 1em;
+.tooltip {
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
+  padding: 1em;
+  position: relative;
+  display: inline-block;
 }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #f492f0;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  font-size: 16px;
+}
+
 
 /* project section */
 .project-section {
