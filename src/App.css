@@ -188,7 +188,7 @@ margin-left: 1em;
 
 .skill-1 {
   width: 80%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -223,7 +223,7 @@ margin-left: 1em;
 /* project section */
 .project-section {
   padding: 16px;
-  background-image: url('https://images.unsplash.com/photo-1520643187271-06df1162815e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80');
+  background-image: url('https://images.unsplash.com/photo-1602072917553-326e3e2f76dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
   background-size: cover;
 	background-position: center ;
 	background-attachment: fixed;
@@ -242,21 +242,20 @@ margin-left: 1em;
   margin-bottom: 3.5em;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-map :hover {
   background-color: #caefd7;
   transition: .5s ease-in-out;
-  transition-property: all;
-  transition-duration: 0.4s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
 }
 
 .project-card {
   background-color: #E7E7E1;
   padding-bottom: 1em;
+  margin-bottom: 1em;
   width: 30%;
   text-align: center;
   display: flex;
@@ -271,6 +270,7 @@ margin-left: 1em;
 }
 
 .project-card img {
+  object-fit: cover;
   margin: 0;
   width: 350px;
   height: 300px;
@@ -399,11 +399,16 @@ margin-left: 1em;
   }
 
   .about-description img {
+    object-fit: cover;
     width: 45%;
   }
 
   .about-paragraphs {
     padding: 1em 1em 5em 1em;
+  }
+
+  .tooltip {
+    font-size: 22px;
   }
   /*projects + contact*/
   .project-card, .contact-form  {
