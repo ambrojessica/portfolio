@@ -77,6 +77,10 @@ export const skillData = [
     icon: <SiHeroku />
   },
   {
+    title: 'Vercel',
+    icon: <SiVercel />
+  },
+  {
     title: 'Netlify',
     icon: <SiNetlify />
   },
