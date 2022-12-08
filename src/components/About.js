@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import '../App.css';
-import selfie from './images/selfie.jpg';
+import selfie from './images/selfie2.jpg';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import { useState } from "react";
 

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
-  background-color: #E7E7E1;
+  background-color: #e7e7e1;
 }
 
 /* top navigation */
@@ -14,7 +14,7 @@ body {
 }
 
 .main-nav h2 {
-margin-left: 1em;
+  margin-left: 1em;
 }
 
 .main-nav a {
@@ -26,10 +26,10 @@ margin-left: 1em;
 /* main page */
 .homepage {
   padding: 16em;
-  background-image: url('https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  background-image: url("https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
   background-size: cover;
-	background-position: center ;
-	background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -64,12 +64,12 @@ margin-left: 1em;
 
 .slider li {
   list-style-type: none;
-	margin: 0px 0 1px 0;
-	height: 1em !important;
-	padding: 0px 0 0px 0;
-	font-size: 3em;
-	text-transform: uppercase;
-	width: 100%;
+  margin: 0px 0 1px 0;
+  height: 1em !important;
+  padding: 0px 0 0px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 @keyframes slide {
@@ -91,16 +91,16 @@ margin-left: 1em;
 .about-section {
   padding: 18px;
   margin: 0;
-  background-image: url('https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  background-image: url("https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
   background-size: cover;
-	background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.about-container h3{
+.about-container h3 {
   text-align: center;
   font-size: 33px;
 }
@@ -151,7 +151,7 @@ margin-left: 1em;
 
 .about-interests button:hover {
   background-color: #f9bc2c;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -172,9 +172,9 @@ margin-left: 1em;
 
 /*skills section */
 .skill-section {
-  background-image: url('https://images.unsplash.com/photo-1564352969556-5825e542fa6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80');
+  background-image: url("https://images.unsplash.com/photo-1564352969556-5825e542fa6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80");
   background-size: cover;
-	background-position: center ;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -219,14 +219,13 @@ margin-left: 1em;
   font-size: 16px;
 }
 
-
 /* project section */
 .project-section {
   padding: 16px;
-  background-image: url('https://images.unsplash.com/photo-1602072917553-326e3e2f76dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
+  background-image: url("https://images.unsplash.com/photo-1602072917553-326e3e2f76dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
   background-size: cover;
-	background-position: center ;
-	background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -249,11 +248,11 @@ margin-left: 1em;
 
 .project-map :hover {
   background-color: #caefd7;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .project-card {
-  background-color: #E7E7E1;
+  background-color: #e7e7e1;
   padding-bottom: 1em;
   margin-bottom: 1em;
   width: 30%;
@@ -276,7 +275,7 @@ margin-left: 1em;
   height: 300px;
 }
 
-.project-details p{
+.project-details p {
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -303,9 +302,9 @@ margin-left: 1em;
 
 /* contact section */
 .contact-section {
-  background-image: url('https://images.unsplash.com/photo-1615193433340-3bfa7dad461b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+  background-image: url("https://images.unsplash.com/photo-1615193433340-3bfa7dad461b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
   background-size: cover;
-	background-position: center ;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -362,7 +361,7 @@ margin-left: 1em;
   border-radius: 10px;
 }
 
-.test{
+.test {
   padding: 2em;
   display: flex;
   justify-content: space-evenly;
@@ -382,11 +381,15 @@ margin-left: 1em;
 /* end of desktop */
 /* mobile responsiveness at 750px*/
 @media (max-width: 750px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
   /* nav */
-  .main-nav, .about-description, .project-map, .test {
+  .main-nav,
+  .about-description,
+  .project-map,
+  .test {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +414,8 @@ margin-left: 1em;
     font-size: 22px;
   }
   /*projects + contact*/
-  .project-card, .contact-form  {
+  .project-card,
+  .contact-form {
     width: 65%;
     margin-bottom: 3em;
   }
@@ -433,7 +437,7 @@ margin-left: 1em;
     font-size: 10px;
   }
 
-  .slider{
+  .slider {
     font-size: 15px;
   }
 
@@ -446,7 +450,7 @@ margin-left: 1em;
     margin-right: 2em;
     padding: 1em;
   }
-  
+
   /* projects */
   .project-details img {
     width: 250px;
@@ -458,16 +462,16 @@ margin-left: 1em;
 @media (max-width: 414px) {
   /*home */
   .homepage {
-    background-position: bottom ;
+    background-position: bottom;
   }
-  .inner-homepage h1{
+  .inner-homepage h1 {
     font-size: 21px;
   }
 
   .slider {
     font-size: 8px;
   }
-    /*about */
+  /*about */
   .about-description img {
     width: 70%;
   }
